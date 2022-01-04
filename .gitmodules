@@ -1,0 +1,6 @@
+[submodule "UBICOMP-NodeMCU"]
+	path = UBICOMP-NodeMCU
+	url = git@github.com:tobi6112/UBICOMP-NodeMCU.git
+[submodule "UBICOMP-RaspberryPi"]
+	path = UBICOMP-RaspberryPi
+	url = git@github.com:tobi6112/UBICOMP-RaspberryPi.git
