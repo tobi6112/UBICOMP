@@ -1,0 +1,57 @@
+{
+    "nodes": {
+        "node-1": {
+            "ir": {
+                "toggleCode": 16750695
+            },
+            "speech": {
+                "additionalQualifiers": [ "node 1", "node one" ]
+            },
+            "nfc": {
+                "toggleUid": "8E:FC:5B:22"
+            }
+        }, 
+        "node-2": {
+            "ir": {
+                "toggleCode": 16746615
+            },
+            "speech": {
+                "additionalQualifiers": [ "node 2", "node two" ]
+            },
+            "nfc": {
+                "toggleUid": "9E:7B:E9:22"
+            },
+            "virtual": true
+        },
+        "node-3": {
+            "virtual": true
+        },
+        "node-4": {
+            "virtual": true
+        },
+        "node-5": {
+            "virtual": true
+        },
+        "node-6": {
+            "virtual": true
+        }, 
+        "node-7": {
+            "virtual": true
+        },
+        "node-8": {
+            "virtual": true
+        },
+        "node-9": {
+            "virtual": true
+        }
+    },
+    "global": {
+        "ir": {
+            "selectiveOff": 16775175,
+            "selectiveOn": 16756815
+        },
+        "speech": {
+            "intentTopic": "hermes/intent/ToggleNode"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+## Rhasspy
+docker/rhasspy/profiles/de/*
+!docker/rhasspy/profiles/de/custom_words.txt
+!docker/rhasspy/profiles/de/profile.json
+!docker/rhasspy/profiles/de/sentences.ini
+!docker/rhasspy/profiles/de/slots/

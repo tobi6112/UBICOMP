@@ -1,0 +1,39 @@
+{
+    "name": "ubicomp-coordinator",
+    "version": "0.1.0",
+    "description": "UBICOMP-Coordinator",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tobi6112/UBICOMP-Coordinator"
+    },
+    "scripts": {
+        "build-ts": "tsc",
+        "build": "npm run build-ts && npm run lint",
+        "debug": "npm run build && npm run watch-debug",
+        "dev": "npm run watch",
+        "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
+        "serve-debug": "nodemon --inspect dist/app.js",
+        "serve": "node dist/app.js",
+        "start": "npm run serve",
+        "test": "jest --forceExit --coverage --verbose",
+        "watch-node": "nodemon dist/app.js",
+        "watch-ts": "tsc -w",
+        "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\""
+    },
+    "dependencies": {
+        "dotenv": "10.0.0",
+        "mqtt": "^4.3.2",
+        "winston": "3.3.3"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.8",
+        "@types/winston": "2.4.4",
+        "@typescript-eslint/eslint-plugin": "4.14.2",
+        "@typescript-eslint/parser": "4.14.2",
+        "concurrently": "^7.0.0",
+        "eslint": "7.19.0",
+        "nodemon": "^2.0.7",
+        "ts-node": "9.1.1",
+        "typescript": "4.1.3"
+    }
+}
