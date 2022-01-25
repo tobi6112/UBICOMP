@@ -13,7 +13,7 @@
         }, 
         "node-2": {
             "ir": {
-                "toggleCode": 16746615
+                "toggleCode": 16767015
             },
             "speech": {
                 "additionalQualifiers": [ "node 2", "node two" ]
@@ -24,24 +24,87 @@
             "virtual": true
         },
         "node-3": {
+            "ir": {
+                "toggleCode": 16746615
+            },
+            "speech": {
+                "additionalQualifiers": [ "node 3", "node three" ]
+            },
+            "nfc": {
+                "toggleUid": "9E:3F:1A:22"
+            },
             "virtual": true
         },
         "node-4": {
+            "ir": {
+                "toggleCode": 16771095
+            },
+            "speech": {
+                "additionalQualifiers": [ "node 4", "node four" ]
+            },
+            "nfc": {
+                "toggleUid": "8E:FF:A3:22"
+            },
             "virtual": true
         },
         "node-5": {
+            "ir": {
+                "toggleCode": 16730295
+            },
+            "speech": {
+                "additionalQualifiers": [ "node 5", "node five" ]
+            },
+            "nfc": {
+                "toggleUid": "9E:8B:93:22"
+            },
             "virtual": true
         },
         "node-6": {
+            "ir": {
+                "toggleCode": 16738455
+            },
+            "speech": {
+                "additionalQualifiers": [ "node 6", "node six" ]
+            },
+            "nfc": {
+                "toggleUid": "9E:0A:77:22"
+            },
             "virtual": true
         }, 
         "node-7": {
+            "ir": {
+                "toggleCode": 16712445
+            },
+            "speech": {
+                "additionalQualifiers": [ "node 7", "node seven" ]
+            },
+            "nfc": {
+                "toggleUid": "9E:44:84:22"
+            },
             "virtual": true
         },
         "node-8": {
+            "ir": {
+                "toggleCode": 16724685
+            },
+            "speech": {
+                "additionalQualifiers": [ "node 8", "node eight" ]
+            },
+            "nfc": {
+                "toggleUid": "8E:FF:FE:22"
+            },
             "virtual": true
         },
         "node-9": {
+            "ir": {
+                "toggleCode": 16720095
+            },
+            "speech": {
+                "additionalQualifiers": [ "node 9", "node nine" ]
+            },
+            "nfc": {
+                "toggleUid": "8E:E8:CC:22"
+            },
             "virtual": true
         }
     },
